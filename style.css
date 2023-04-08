@@ -1,0 +1,44 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-image: linear-gradient(#f43f5e,#f472b6);
+     background-repeat: no-repeat;
+
+}
+
+#heading{
+     margin: 1vh 30%;
+}
+
+#btn-translate{
+     margin: auto;
+     padding: 1rem;
+     display: block;
+     background-color: rgb(88, 248, 48);
+     border: none;
+     border-radius: 0.7rem;
+}
+#btn-translate:hover{
+     background-color: rgb(0, 204, 197);
+}
+
+#output-text{
+     width: 50vw;
+     margin: auto;
+     padding: 1rem;
+     height: 2rem;
+     background-image: linear-gradient(rgb(255, 181, 32),rgb(255, 224, 121));
+     border-bottom-left-radius: 2rem;
+     border-top-right-radius: 2rem;
+}
+
+#text-recieved{
+     margin: auto;
+     padding: 0.5rem;
+     display: block;
+}
